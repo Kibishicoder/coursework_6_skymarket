@@ -1,8 +1,8 @@
 from rest_framework.viewsets import ModelViewSet
 
-from skymarket.ads.models import Comment, Ad
-from skymarket.ads.permissions import UserPermissions
-from skymarket.ads.serializers import CommentSerializer, CommentListSerializer, CommentCreateSerializer
+from ads.models import Comment, Ad
+from ads.permissions import UserPermissions
+from ads.serializers import CommentSerializer, CommentListSerializer, CommentCreateSerializer
 
 
 class CommentViewSet(ModelViewSet):

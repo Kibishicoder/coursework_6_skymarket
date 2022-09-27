@@ -2,9 +2,9 @@ from rest_framework.decorators import action
 from rest_framework.response import Response
 from rest_framework.viewsets import ModelViewSet
 
-from skymarket.ads.models import Ad
-from skymarket.ads.permissions import UserPermissions
-from skymarket.ads.serializers import AdListSerializer, AdRetrieveSerializer, AdCreateSerializer
+from ads.models import Ad
+from ads.permissions import UserPermissions
+from ads.serializers import AdListSerializer, AdRetrieveSerializer, AdCreateSerializer
 
 
 class AdViewSet(ModelViewSet):

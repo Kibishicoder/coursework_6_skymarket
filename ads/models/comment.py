@@ -1,7 +1,7 @@
 from django.db import models
 
+from users.models import User
 from .ad import Ad
-from ...users.models import User
 
 
 class Comment(models.Model):

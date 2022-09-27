@@ -1,7 +1,7 @@
 from rest_framework import serializers
 
-from skymarket.ads.models import Ad
-from skymarket.users.models import User
+from ads.models import Ad
+from users.models import User
 
 
 class AdSerializer(serializers.ModelSerializer):
